@@ -1,0 +1,289 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2? family = Roboto: wght @ 400; 700; 900 & display = swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  color: #212121;
+  line-height: 1.5;
+}
+
+h1 {
+  padding: 0px 0px;
+}
+
+img {
+  width: 125px;
+  height: 166px;
+  margin-top: 20px;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  background-color: #f13c6d;
+  border-radius: 15px;
+  border-color: white;
+  border-style: 1px solid;
+  border-color: #fff;
+  font-size: 14px;
+  color: white;
+  font-family: "Roboto";
+}
+
+button:before {
+  background-color: rgba(239, 32, 88, 0.56);
+  border-color: #fff;
+  border-style: 3px solid;
+}
+
+.square {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-style: normal;
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  background: #fff;
+  border: 6px solid #E5E5E5;
+}
+
+.title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #fff;
+}
+.title__subtitle {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+}
+.title--b {
+  color: #000;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background: #F13C6E;
+  color: #fff;
+  font-weight: 700;
+  border: 1px solid #FFF;
+  transition: 0.2s all linear;
+  margin: 30px 0px;
+}
+
+.section {
+  padding: 50px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu {
+  background: #313030;
+  color: #fff;
+  position: absolute;
+  top: 3%;
+  left: 0;
+  right: 0;
+}
+
+.heder {
+  height: 100vh;
+}
+
+.nav-link {
+  padding: 20px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: 0.2s all linear;
+}
+
+.nav-link:hover {
+  background: #ff3f40;
+  color: #fff;
+}
+
+.contnav {
+  text-align: center;
+  position: fixed;
+  z-index: 99;
+}
+
+/*SECTION 1*/
+.first {
+  height: 100vh;
+}
+
+.navbar {
+  padding: 0px 0px;
+}
+
+.section-first {
+  height: 100vh;
+}
+
+.first-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000;
+  margin: 20px 0px;
+}
+
+.first-subtitle {
+  margin: 20px 0px;
+}
+
+/*SECTION 2*/
+.icon {
+  color: #ff4856;
+  font-size: 35px;
+  margin-top: 13%;
+}
+
+.two-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #4c4c4c;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+
+.two-title-right {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #4c4c4c;
+  margin: 25px 0px;
+}
+
+.row {
+  margin: 0 0px;
+}
+
+.first-video {
+  width: 100%;
+  height: 315px;
+  box-shadow: 0 0 20px 15px rgba(0, 0, 0, 0.4);
+}
+
+/*FEATURE*/
+/*MEET*/
+.retangle {
+  height: 455px;
+  background: #f5f0dd;
+  border: 4px solid #fff;
+}
+
+.margin-top-meet {
+  margin-top: 60px;
+}
+
+.square-small {
+  height: 210px;
+  background: #f5f0dd;
+  border: 4px solid #fff;
+}
+
+/*Design tips*/
+.Design {
+  background-color: #f5f0dd;
+  color: white;
+}
+
+.Design-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.form-subs_input {
+  padding: 10px 15px;
+  font-size: 16px;
+  height: 70px;
+  border: none;
+  line-height: 1.5;
+  margin-right: 25px;
+  width: 500px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.form-subs form {
+  margin-top: 50px;
+}
+
+input[type=search]::-moz-placeholder {
+  color: #ffd595;
+  /* Цвет подсказывающего текста */
+}
+
+input[type=search]::-webkit-input-placeholder {
+  color: #ffd595;
+}
+
+input[type=search]:-ms-input-placeholder {
+  color: #ffd595;
+}
+
+input[type=search]::-ms-input-placeholder {
+  color: #ffd595;
+}
+
+input[type=search]::placeholder {
+  color: #ffd595;
+}
+
+/*Get in Touch*/
+.black-block {
+  position: relative;
+  color: #fff;
+  z-index: 999;
+}
+
+.black-block:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: -150px;
+  height: 300px;
+  width: 1400px;
+  background: black;
+  z-index: -9;
+}
+
+.form-get_input {
+  padding: 10px 15px;
+  font-size: 16px;
+  height: 70px;
+  border: none;
+  line-height: 1.5;
+  margin-right: 25px;
+  width: 500px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-top: 10px;
+  background: #D3D3D3;
+}
+
+/*# sourceMappingURL=style.css.map */
